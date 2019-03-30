@@ -1,9 +1,4 @@
-@font-face {
-  font-family: "Open Sans", sans-serif;
-  src: url("https://github.com/OlgaKorotkova/diploma_mq15/blob/master/css/fonts/OpenSans-Bold.ttf") format("truetype");
-  font-weight: bold;
-  font-style: normal;
-}
+
 
 html {
   font-family: "Open Sans", sans-serif;
