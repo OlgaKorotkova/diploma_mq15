@@ -85,7 +85,7 @@ body {
 
   .footer {
     background-color: #0a0e34;
-    background-image: url("https://github.com/OlgaKorotkova/diploma_mq15/blob/master/img/game_1280.jpg");
+    background-image: url("../img/game_1280.jpg");
     background-size: cover;
     width: 100%;
     max-width: 960px;
@@ -99,7 +99,7 @@ body {
 
   .header {
     background-color: #0a0e34;
-    background-image: url("https://github.com/OlgaKorotkova/diploma_mq15/blob/master/img/football_767.jpg");
+    background-image: url("../img/football_767.jpg");
     background-size: cover;
     width: 100%;
     max-width: 640px;
@@ -107,7 +107,7 @@ body {
 
   .footer {
     background-color: #0a0e34;
-    background-image: url("https://github.com/OlgaKorotkova/diploma_mq15/blob/master/img/game_767.jpg");
+    background-image: url("../img/game_767.jpg");
     background-size: cover;
     width: 100%;
     max-width: 640px;
@@ -476,7 +476,7 @@ main {
 
   .card_01 {
     background-image:
-  url("https://github.com/OlgaKorotkova/diploma_mq15/blob/master/img/footballer_566.png");
+  url("../img/footballer_566.png");
     background-position: 20% 100%;
     background-repeat: no-repeat;
     background-size: 30%;
@@ -492,7 +492,7 @@ main {
 
   .card_02 {
     background-image:
-  url("https://github.com/OlgaKorotkova/diploma_mq15/blob/master/img/basketballer_991.png");
+  url("../img/basketballer_991.png");
     width: 100%;
     max-width: 1920px;
     background-position: 90%;
@@ -556,7 +556,7 @@ main {
 
   .card_01 {
     background-image:
-  url("https://github.com/OlgaKorotkova/diploma_mq15/blob/master/img/footballer_497.png");
+  url("../img/footballer_497.png");
     background-position: -30% 75%;
     background-repeat: no-repeat;
     background-size: 51%;
@@ -572,7 +572,7 @@ main {
 
   .card_02 {
     background-image:
-  url("https://github.com/OlgaKorotkova/diploma_mq15/blob/master/img/basketballer_436.png");
+  url("../img/basketballer_436.png");
     width: 100%;
     max-width: 960px;
     background-position: 100% 10%;
@@ -636,7 +636,7 @@ main {
 
   .card_01 {
     background-image:
-  url("https://github.com/OlgaKorotkova/diploma_mq15/blob/master/img/footballer_192.png");
+  url("../img/footballer_192.png");
     background-position: 50% 10%;
     background-repeat: no-repeat;
     background-size: 45%;
@@ -652,7 +652,7 @@ main {
 
   .card_02 {
     background-image:
-  url("https://github.com/OlgaKorotkova/diploma_mq15/blob/master/img/basketballer_302.png");
+  url("../img/basketballer_302.png");
     width: 100%;
     max-width: 640px;
     background-position: 50% 12%;
