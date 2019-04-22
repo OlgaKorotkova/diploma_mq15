@@ -55,7 +55,7 @@ body {
 
   .header {
     background-color: #0a0e34;
-    background-image: url("https://github.com/OlgaKorotkova/diploma_mq15/blob/master/img/football_1920.jpg");
+    background-image: url(../img/football_1920.jpg);
     background-size: cover;
     width: 100%;
     max-width: 1920px;
@@ -63,7 +63,7 @@ body {
 
   .footer {
     background-color: #0a0e34;
-    background-image: url("https://github.com/OlgaKorotkova/diploma_mq15/blob/master/img/game_1920.jpg");
+    background-image: url(../img/game_1920.jpg);
     background-size: cover;
     width: 100%;
     max-width: 1920px;
