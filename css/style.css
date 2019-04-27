@@ -518,6 +518,7 @@ main {
   
   .footballer {
     position: absolute;
+    top: 87%;
     left: 15%;
     width: 35%;
   }
@@ -535,7 +536,7 @@ main {
   .basketballer {
     position: absolute;
     left: 40%;
-    top: 420%;
+    top: 170%;
     width: 55%;
   }
 }
@@ -599,9 +600,9 @@ main {
   
   .footballer {
     position: absolute;
-    left: -25%;
-    top: 330%;
-    width: 62%;
+    left: -22%;
+    top: 139%;
+    width: 65%;
   }
   
   .card_02, .white_02, .light_dark, .dark {
@@ -616,9 +617,9 @@ main {
   
   .basketballer {
     position: absolute;
-    left: 40%;
-    top: 550%;
-    width: 100%;
+    left: 47%;
+    top: 242%;
+    width: 57%;
   }
 }
 
@@ -681,8 +682,8 @@ main {
   
   .footballer {
     position: absolute;
-    left: 15%;
-    top: 320%;
+    left: 25%;
+    top: 188%;
     width: 60%;
   }
   
@@ -698,7 +699,7 @@ main {
   
   .basketballer {
     position: absolute;
-    top: 900%;
+    top: 560%;
     width: 95%;
   }
 }
