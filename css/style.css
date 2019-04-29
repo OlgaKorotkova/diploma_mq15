@@ -233,12 +233,18 @@ h1 {
 .apple_store p, .google_store p {
   text-transform: uppercase;
   color: #ffffff;
+  line-height: 1.5em;
+}
+
+.bold {
+  font-weight: bold;
 }
 
 .apple_store a, .google_store a {
   text-decoration: none;
   display: flex;
   flex-wrap: wrap;
+  justify-content: flex-start;
 }
 
 @media (min-width: 961px) and (max-width: 1920px) {
@@ -248,26 +254,26 @@ h1 {
     fill: #ffffff;
     padding-left: 8%;
     padding-top: 4%;
+    margin-right: auto;
   }
 
   .apple_store p {
     font-size: 0.72vmax;
     box-sizing: border-box;
-    width: 45%;
-    margin-left: 4%;
+    margin-left: 20%;
+    padding-right: 16%;
   }
 
   .google_store p {
     font-size: 0.72vmax;
     box-sizing: border-box;
     margin-left: 5%;
-    width: 30%;
+    padding-right: 20%;
   }
 
   .apple_store, .google_store {
     width: 48.5%;
     margin: auto;
-    height: 26%;
   }
 
   .buttons {
@@ -283,27 +289,27 @@ h1 {
     width: 11%;
     height: 12%;
     fill: #ffffff;
-    margin-left: 13%;
-    margin-top: 3%;
+    padding-left: 13%;
+    padding-top: 3%;
+    margin-right: auto;
   }
 
   .apple_store p {
     font-size: 1.8vmin;
-    width: 45%;
     margin-left: 6%;
     margin-right: auto;
+    padding-right: 19%;
   }
 
   .google_store p {
     font-size: 1.8vmin;
-    width: 35%;
     margin-left: 7%;
     margin-right: auto;
+    padding-right: 20%;
   }
 
   .apple_store, .google_store {
     width: 45%;
-    height: 27%;
     margin: auto;
   }
 
@@ -327,7 +333,6 @@ h1 {
 
   .apple_store p {
     font-size: 2.5vmin;
-    width: 32%;
     margin-left: 2%;
     margin-top: 2%;
     margin-right: auto;
@@ -336,7 +341,6 @@ h1 {
 
   .google_store p {
     font-size: 2.5vmin;
-    width: 25%;
     margin-left: 2%;
     margin-top: 2%;
     margin-right: auto;
