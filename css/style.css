@@ -72,7 +72,7 @@ body {
 
 @media (min-width: 641px) and (max-width: 960px) {
   html {
-    font-size: 2.08vmax;
+    font-size: 2.08vmin;
   }
 
   .header {
@@ -94,7 +94,7 @@ body {
 
 @media (max-width: 640px) {
   html {
-    font-size: 4.6875vmax;
+    font-size: 4.6875vmin;
   }
 
   .header {
@@ -175,7 +175,7 @@ h1 {
 @media (min-width: 641px) and (max-width: 960px) {
   h1 {
     line-height: 1em;
-    font-size: 8.3vmax;
+    font-size: 8.3vmin;
     letter-spacing: 0.06em;
     padding-top: 23%;
     padding-bottom: 40%;
@@ -197,7 +197,7 @@ h1 {
 
 @media (max-width: 640px) {
   h1 {
-    font-size: 8.75vmax;
+    font-size: 8.75vmin;
     letter-spacing: 0.3em;
     padding-top: 44%;
     padding-bottom: 9%;
@@ -288,14 +288,14 @@ h1 {
   }
 
   .apple_store p {
-    font-size: 1.8vmax;
+    font-size: 1.8vmin;
     width: 45%;
     margin-left: 6%;
     margin-right: auto;
   }
 
   .google_store p {
-    font-size: 1.8vmax;
+    font-size: 1.8vmin;
     width: 35%;
     margin-left: 7%;
     margin-right: auto;
@@ -326,7 +326,7 @@ h1 {
   }
 
   .apple_store p {
-    font-size: 2.5vmax;
+    font-size: 2.5vmin;
     width: 32%;
     margin-left: 2%;
     margin-top: 2%;
@@ -335,7 +335,7 @@ h1 {
   }
 
   .google_store p {
-    font-size: 2.5vmax;
+    font-size: 2.5vmin;
     width: 25%;
     margin-left: 2%;
     margin-top: 2%;
@@ -554,14 +554,14 @@ main {
 
 @media (min-width: 641px) and (max-width: 960px) {
   .card_name {
-    font-size: 10.4vmax;
+    font-size: 10.4vmin;
     padding-top: 11%;
     padding-bottom: 7%;
     line-height: 1em;
   }
   
   .subtitle {
-    font-size: 4.16vmax;
+    font-size: 4.16vmin;
     letter-spacing: 0.1em;
     line-height: 1em;
     padding-bottom: 4%;
@@ -580,7 +580,7 @@ main {
   }
   
   .small, .small_01 {
-    font-size: 2.34vmax;
+    font-size: 2.34vmin;
     border-bottom: 0.15em solid #5e42b0;
     width: 1%;
     letter-spacing: initial;
@@ -629,19 +629,20 @@ main {
     position: absolute;
     left: 47%;
     top: 8%;
+    width: 53%
   }
 }
 
 @media (max-width: 640px) {
   .card_name {
-    font-size: 15.6vmax;
+    font-size: 15.6vmin;
     padding-top: 9%;
     padding-bottom: 100%;
     line-height: 1em;
   }
   
   .subtitle {
-    font-size: 7.18vmax;
+    font-size: 7.18vmin;
     letter-spacing: 0.1em;
     line-height: 1em;
     padding-bottom: 9%;
@@ -660,7 +661,7 @@ main {
   }
   
   .small, .small_01 {
-    font-size: 4.375vmax;
+    font-size: 4.375vmin;
     border-bottom: 0.15em solid #5e42b0;
     width: 1%;
     letter-spacing: initial;
@@ -672,7 +673,7 @@ main {
   }
   
   .small_02 {
-    font-size: 4.375vmax;
+    font-size: 4.375vmin;
     border-bottom: 0.15em solid #efefef;
     width: 1%;
     letter-spacing: initial;
@@ -703,7 +704,7 @@ main {
   
   .card_02 h3, .card_02 h2, .card_02 p {
     padding-left: 6%;
-    padding-right: 25%;
+    padding-right: 12%;
   }
   
   .basketballer {
@@ -825,13 +826,13 @@ main {
 
 @media (min-width: 641px) and (max-width: 960px) {
   .section_gallery h2 {
-   font-size: 10.4vmax;
+   font-size: 10.4vmin;
    padding-top: 11%;
    padding-bottom: 4%;
   }
 
   .section_gallery p {
-    font-size: 3.125vmax;
+    font-size: 3.125vmin;
     padding-bottom: 13%;
   }
 
@@ -846,7 +847,7 @@ main {
     color: #ffffff;
     text-decoration: underline;
     text-align: center;
-    font-size: 3.125vmax;
+    font-size: 3.125vmin;
     font-weight: bold;
     line-height: 11vmax;
  }
@@ -862,7 +863,7 @@ main {
     color: #ffffff;
     text-decoration: underline;
     text-align: center;
-    font-size: 3.125vmax;
+    font-size: 3.125vmin;
     font-weight: bold;
     line-height: 11vmax;
  }
@@ -878,9 +879,9 @@ main {
     color: #ffffff;
     text-decoration: underline;
     text-align: center;
-    font-size: 3.125vmax;
+    font-size: 3.125vmin;
     font-weight: bold;
-    line-height: 11vmax;
+    line-height: 11vmin;
   }
 
   .line_01, .line_02, .line_03 {
@@ -909,13 +910,13 @@ main {
 
 @media (max-width: 640px) {
   .section_gallery h2 {
-    font-size: 8.75vmax;
+    font-size: 8.75vmin;
     padding-top: 9%;
     padding-bottom: 7%;
   }
 
   .section_gallery p {
-    font-size: 5vmax;
+    font-size: 5vmin;
     padding-bottom: 25%;
   }
 
@@ -930,9 +931,9 @@ main {
     color: #ffffff;
     text-decoration: underline;
     text-align: center;
-    font-size: 4.375vmax;
+    font-size: 4.375vmin;
     font-weight: bold;
-    line-height: 10vmax;
+    line-height: 10vmin;
   }
 
   .line_02:after {
@@ -946,9 +947,9 @@ main {
     color: #ffffff;
     text-decoration: underline;
     text-align: center;
-    font-size: 4.375vmax;
+    font-size: 4.375vmin;
     font-weight: bold;
-    line-height: 10vmax;
+    line-height: 10vmin;
   }
 
   .line_03:after {
@@ -962,9 +963,9 @@ main {
     color: #ffffff;
     text-decoration: underline;
     text-align: center;
-    font-size: 4.375vmax;
+    font-size: 4.375vmin;
     font-weight: bold;
-    line-height: 10vmax;
+    line-height: 10vmin;
   }
 
   .line_01, .line_02, .line_03 {
@@ -1075,7 +1076,7 @@ main {
   }
 
   .footer h2 {
-    font-size: 10.4vmax;
+    font-size: 10.4vmin;
     letter-spacing: 0.05em;
     line-height: 1em;
     width: 100%;
@@ -1084,7 +1085,7 @@ main {
   }
 
   .text_footer p {
-    font-size: 4.6875vmax;
+    font-size: 4.6875vmin;
     line-height: 1em;
   }
 
@@ -1112,7 +1113,7 @@ main {
   }
 
   .footer h2 {
-    font-size: 10vmax;
+    font-size: 10vmin;
     letter-spacing: 0.05em;
     line-height: 1em;
     width: 100%;
@@ -1121,7 +1122,7 @@ main {
   }
 
   .text_footer p {
-    font-size: 4.375vmax;
+    font-size: 4.375vmin;
     line-height: 1em;
   }
 
