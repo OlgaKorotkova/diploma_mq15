@@ -381,6 +381,8 @@ main {
   margin-top: 0;
   margin-bottom: 0;
   background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .light_violet {
@@ -389,6 +391,8 @@ main {
   margin-top: 0;
   margin-bottom: 0;
   background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .violet {
@@ -397,6 +401,8 @@ main {
   margin-top: 0;
   margin-bottom: 0;
   background-size: cover;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .light_dark {
@@ -405,6 +411,8 @@ main {
   margin-bottom: 0;
   background-size: cover;
   background-color: rgba(10,14,52,.1);
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .dark {
@@ -413,6 +421,8 @@ main {
   margin-bottom: 0;
   background-size: cover;
   background-color: #0a0e34;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .section_02 {
@@ -431,6 +441,7 @@ main {
   margin-bottom: 0;
   display: flex;
   flex-wrap: wrap;
+  position: relative;
 }
 
 .card_name {
@@ -518,7 +529,7 @@ main {
   
   .footballer {
     position: absolute;
-    top: 87%;
+    top: 3%;
     left: 15%;
     width: 35%;
   }
@@ -536,7 +547,7 @@ main {
   .basketballer {
     position: absolute;
     left: 40%;
-    top: 170%;
+    top: 3%;
     width: 55%;
   }
 }
@@ -601,7 +612,7 @@ main {
   .footballer {
     position: absolute;
     left: -22%;
-    top: 139%;
+    top: 13%;
     width: 65%;
   }
   
@@ -618,7 +629,7 @@ main {
   .basketballer {
     position: absolute;
     left: 47%;
-    top: 242%;
+    top: 8%;
     width: 57%;
   }
 }
@@ -683,7 +694,7 @@ main {
   .footballer {
     position: absolute;
     left: 25%;
-    top: 188%;
+    top: 25%;
     width: 60%;
   }
   
@@ -699,7 +710,7 @@ main {
   
   .basketballer {
     position: absolute;
-    top: 560%;
+    top: 25%;
     width: 95%;
   }
 }
