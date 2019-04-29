@@ -694,7 +694,7 @@ main {
   .footballer {
     position: absolute;
     left: 25%;
-    top: 25%;
+    top: 5%;
     width: 60%;
   }
   
@@ -710,7 +710,7 @@ main {
   
   .basketballer {
     position: absolute;
-    top: 25%;
+    top: 5%;
     width: 95%;
   }
 }
