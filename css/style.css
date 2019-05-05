@@ -161,14 +161,14 @@ h1 {
 
   .first_line {
     display: block;
-    margin-left: 12%;
-    margin-right: auto;
+    padding-left: 10%;
+    padding-right: 54%;
   }
 
   .second_line {
     display: block;
-    margin-left: 33%;
-    margin-right: auto;
+    padding-left: 33%;
+    padding-right: 10%;
   }
 }
 
@@ -243,7 +243,6 @@ h1 {
 .apple_store a, .google_store a {
   text-decoration: none;
   display: flex;
-  justify-content: flex-start;
 }
 
 @media (min-width: 961px) and (max-width: 1920px) {
@@ -252,23 +251,22 @@ h1 {
     height: 10%;
     fill: #ffffff;
     padding-left: 8%;
-    padding-top: 4%;
-    margin-right: auto;
+    padding-top: 3%;
     flex-shrink: 0;
   }
 
   .apple_store p {
     font-size: 0.72vmax;
     box-sizing: border-box;
-    margin-left: 20%;
-    padding-right: 16%;
+    padding-left: 3%;
+    padding-right: 30%;
   }
 
   .google_store p {
     font-size: 0.72vmax;
     box-sizing: border-box;
-    margin-left: 5%;
-    padding-right: 20%;
+    padding-left: 5%;
+    padding-right: 35%;
   }
 
   .apple_store, .google_store {
