@@ -254,6 +254,7 @@ h1 {
     padding-left: 8%;
     padding-top: 4%;
     margin-right: auto;
+    flex-shrink: 0;
   }
 
   .apple_store p {
@@ -271,8 +272,9 @@ h1 {
   }
 
   .apple_store, .google_store {
-    width: 48.5%;
-    margin: auto;
+    width: 45%;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .buttons {
@@ -291,6 +293,7 @@ h1 {
     padding-left: 13%;
     padding-top: 3%;
     margin-right: auto;
+    flex-shrink: 0;
   }
 
   .apple_store p {
@@ -328,6 +331,7 @@ h1 {
     margin-left: 28%;
     margin-top: auto;
     margin-bottom: auto;
+    flex-shrink: 0;
   }
 
   .apple_store p {
