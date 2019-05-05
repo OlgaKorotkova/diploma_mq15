@@ -124,7 +124,7 @@ body {
   .logo_surface {
     width: 10%;
     height: 3%;
-    padding-top: 3%;
+    padding-top: 2.1%;
   }
 }
 
@@ -140,7 +140,7 @@ body {
   .logo_surface {
     width: 42%;
     height: 11%;
-    padding-top: 11%;
+    padding-top: 10%;
   }
 }
 
@@ -154,7 +154,7 @@ h1 {
   h1 {
     font-size: 4.7vmax;
     letter-spacing: 0.04em;
-    padding-top: 15%;
+    padding-top: 12%;
     padding-bottom: 11%;
     line-height: 1em;
   }
