@@ -767,10 +767,10 @@ main {
   .line_01:after {
     content: "01";
     background: #5e42b0;
-    width: 8%;
+    width: 8.4%;
     position: absolute;
-    top: 33%;
-    left: 45%;
+    top: 32%;
+    left: 47%;
     color: #ffffff;
     text-decoration: underline;
     text-align: center;
@@ -784,10 +784,10 @@ main {
   .line_02:after {
     content: "02";
     background: #5e42b0;
-    width: 8%;
+    width: 8.4%;
     position: absolute;
-    top: 33%;
-    left: 45%;
+    top: 32%;
+    left: 47%;
     color: #ffffff;
     text-decoration: underline;
     text-align: center;
@@ -801,10 +801,10 @@ main {
   .line_03:after {
     content: "03";
     background: #5e42b0;
-    width: 8%;
+    width: 8.4%;
     position: absolute;
-    top: 33%;
-    left: 45%;
+    top: 32%;
+    left: 47%;
     color: #ffffff;
     text-decoration: underline;
     text-align: center;
