@@ -492,13 +492,11 @@ main {
   .text {
     line-height: 1.5em;
     padding-bottom: 3%;
-    padding-top: 1%;
   }
   
   .text_growth {
     line-height: 1.5em;
     padding-bottom: 1.3%;
-    padding-top: 1%;
   }
   
   .small, .small_01 {
@@ -532,7 +530,7 @@ main {
   }
   
   .light_violet h3, .violet h3 {
-    padding-top: 3%;
+    padding-top: 1.5%;
   }  
   
   .footballer {
