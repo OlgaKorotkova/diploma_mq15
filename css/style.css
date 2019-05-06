@@ -245,7 +245,7 @@ h1 {
   display: flex;
 }
 
-@media (min-width: 961px) and (max-width: 1920px) {
+@media (min-width: 961px) and (max-width: 1920px), (min-width: 1921px) {
   .apple_icon, .google_icon {
     width: 12%;
     height: 10%;
@@ -277,7 +277,7 @@ h1 {
 
   .buttons {
     width: 35%;
-    padding-bottom: 5%;
+    padding-bottom: 8%;
     margin-right: auto;
     margin-left: auto;
   }
@@ -473,7 +473,7 @@ main {
   font-weight: bold;
 }
 
-@media (min-width: 961px) and (max-width: 1920px) {
+@media (min-width: 961px) and (max-width: 1920px), (min-width: 1921px) {
  .card_name {
     font-size: 4.2vmax;
     padding-top: 6%;
@@ -750,7 +750,7 @@ main {
   box-sizing: border-box;
 }
 
-@media (min-width: 961px) and (max-width: 1920px) {
+@media (min-width: 961px) and (max-width: 1920px), (min-width: 1921px) {
   .section_gallery h2 {
     font-size: 4.16vmax;
     padding-top: 28%;
@@ -1035,7 +1035,7 @@ main {
   justify-content: center;
 }
 
-@media (min-width: 961px) and (max-width: 1920px) {
+@media (min-width: 961px) and (max-width: 1920px), (min-width: 1921px) {
   .icon_download {
     width: 12%;
     height: 15%;
