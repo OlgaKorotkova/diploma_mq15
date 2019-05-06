@@ -756,11 +756,12 @@ main {
   .section_gallery h2 {
     font-size: 4.16vmax;
     padding-top: 28%;
-    padding-bottom: 6%;
+    padding-bottom: 5%;
   }
 
   .section_gallery p {
     font-size: 1.25vmax;
+    padding-bottom: 12%;
   }
 
   .line_01:after {
@@ -825,7 +826,7 @@ main {
 
   .text_line_01, .text_line_02, .text_line_03 {
     width: 50%;
-    padding-left: 6%;
+    padding-left: 7%;
     padding-right: 11%;
     box-sizing: border-box;
   }
