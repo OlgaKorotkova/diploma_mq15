@@ -48,7 +48,7 @@ body {
   margin-bottom: 0;
 }
 
-@media (min-width: 961px) and (max-width: 1920px) {
+@media (min-width: 961px) and (max-width: 1920px), (min-width: 1921px) {
   html {
     font-size: 1.04vmax;
   }
@@ -120,7 +120,7 @@ body {
   margin-right: auto;
   }
 
-@media (min-width: 961px) and (max-width: 1920px) {
+@media (min-width: 961px) and (max-width: 1920px), (min-width: 1921px) {
   .logo_surface {
     width: 10%;
     height: 3%;
@@ -150,7 +150,7 @@ h1 {
   text-transform: uppercase;
 }
 
-@media (min-width: 961px) and (max-width: 1920px) {
+@media (min-width: 961px) and (max-width: 1920px), (min-width: 1921px) {
   h1 {
     font-size: 4.7vmax;
     letter-spacing: 0.04em;
@@ -177,8 +177,8 @@ h1 {
     line-height: 1em;
     font-size: 8.3vmin;
     letter-spacing: 0.06em;
-    padding-top: 23%;
-    padding-bottom: 40%;
+    padding-top: 17%;
+    padding-bottom: 30%;
   }
 
   .first_line {
@@ -189,9 +189,9 @@ h1 {
 
   .second_line {
     display: block;
-    padding-left: 20%;
+    padding-left: 23%;
     padding-top: 3%;
-    padding-right: 42%;
+    padding-right: 8%;
   }
 }
 
