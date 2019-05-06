@@ -529,7 +529,7 @@ main {
     padding-right: 10%;
   }
   
-  .light_violet h3, .violet h3 {
+  .light_violet h3, .violet h3, .light_dark, .dark {
     padding-top: 1.5%;
   }  
   
@@ -554,7 +554,7 @@ main {
     position: absolute;
     left: 40%;
     top: 3%;
-    width: 55%;
+    width: 50%;
   }
 }
 
