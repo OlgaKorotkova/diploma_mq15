@@ -155,7 +155,7 @@ h1 {
     font-size: 4.7vmax;
     letter-spacing: 0.04em;
     padding-top: 12%;
-    padding-bottom: 7%;
+    padding-bottom: 8%;
     line-height: 1em;
   }
 
@@ -289,23 +289,20 @@ h1 {
     height: 12%;
     fill: #ffffff;
     padding-left: 13%;
-    padding-top: 3%;
-    margin-right: auto;
+    padding-top: 5%;
     flex-shrink: 0;
   }
 
   .apple_store p {
     font-size: 1.8vmin;
     margin-left: 6%;
-    margin-right: auto;
-    padding-right: 19%;
+    padding-right: 20%;
   }
 
   .google_store p {
     font-size: 1.8vmin;
     margin-left: 7%;
-    margin-right: auto;
-    padding-right: 20%;
+    padding-right: 35%;
   }
 
   .apple_store, .google_store {
@@ -315,7 +312,7 @@ h1 {
   }
 
   .buttons {
-    width: 68%;
+    width: 86%;
     padding-bottom: 11%;
     margin-left: auto;
     margin-right: auto;
