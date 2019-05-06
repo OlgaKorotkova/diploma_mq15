@@ -767,7 +767,7 @@ main {
   .line_01:after {
     content: "01";
     background: #5e42b0;
-    width: 7.4%;
+    width: 8%;
     position: absolute;
     top: 32%;
     left: 47%;
@@ -784,7 +784,7 @@ main {
   .line_02:after {
     content: "02";
     background: #5e42b0;
-    width: 7.4%;
+    width: 8%;
     position: absolute;
     top: 32%;
     left: 47%;
@@ -801,7 +801,7 @@ main {
   .line_03:after {
     content: "03";
     background: #5e42b0;
-    width: 7.4%;
+    width: 8%;
     position: absolute;
     top: 32%;
     left: 47%;
