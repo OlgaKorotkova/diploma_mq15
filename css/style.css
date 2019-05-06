@@ -529,7 +529,7 @@ main {
     padding-right: 10%;
   }
   
-  .light_violet h3, .violet h3, .light_dark, .dark {
+  .light_violet h3, .violet h3, .light_dark h3, .dark h3 {
     padding-top: 1.5%;
   }  
   
@@ -546,15 +546,15 @@ main {
   }
   
   .card_02 h3, .card_02 h2, .card_02 p {
-    padding-left: 9%;
+    padding-left: 10%;
     padding-right: 49%;
   }
   
   .basketballer {
     position: absolute;
-    left: 40%;
+    left: 42%;
     top: 3%;
-    width: 50%;
+    width: 48%;
   }
 }
 
