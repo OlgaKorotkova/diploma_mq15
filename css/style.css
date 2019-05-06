@@ -756,19 +756,19 @@ main {
   .section_gallery h2 {
     font-size: 4.16vmax;
     padding-top: 28%;
-    padding-bottom: 5%;
+    padding-bottom: 4%;
   }
 
   .section_gallery p {
     font-size: 1.25vmax;
-    padding-bottom: 12%;
+    padding-bottom: 20%;
   }
 
   .line_01:after {
     content: "01";
     background: #5e42b0;
-    width: 6%;
-    height: 14%;
+    width: 9%;
+    height: 8%;
     position: absolute;
     top: 33%;
     left: 47%;
