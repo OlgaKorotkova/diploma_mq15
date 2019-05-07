@@ -124,7 +124,7 @@ body {
   .logo_surface {
     width: 10%;
     height: 3%;
-    padding-top: 2.1%;
+    padding-top: 2vmax;
   }
 }
 
@@ -132,7 +132,7 @@ body {
   .logo_surface {
     width: 27%;
     height: 8%;
-    padding-top: 5%;
+    padding-top: 5vmin;
   }
 }
 
@@ -140,7 +140,7 @@ body {
   .logo_surface {
     width: 42%;
     height: 11%;
-    padding-top: 10%;
+    padding-top: 9.3vmin;
   }
 }
 
@@ -153,22 +153,22 @@ h1 {
 @media (min-width: 961px) and (max-width: 1920px), (min-width: 1921px) {
   h1 {
     font-size: 4.7vmax;
-    letter-spacing: 0.04em;
-    padding-top: 12%;
-    padding-bottom: 8%;
+    letter-spacing: 1vmax;
+    padding-top: 14vmax;
+    padding-bottom: 11.5vmax;
     line-height: 1em;
   }
 
   .first_line {
     display: block;
-    padding-left: 10%;
-    padding-right: 54%;
+    padding-left: 10vmax;
+    padding-right: 54vmax;
   }
 
   .second_line {
     display: block;
-    padding-left: 33%;
-    padding-right: 10%;
+    padding-left: 33vmax;
+    padding-right: 10vmax;
   }
 }
 
@@ -176,45 +176,45 @@ h1 {
   h1 {
     line-height: 1em;
     font-size: 8.3vmin;
-    letter-spacing: 0.06em;
-    padding-top: 15%;
-    padding-bottom: 32%;
+    letter-spacing: 1.2vmin;
+    padding-top: 15vmin;
+    padding-bottom: 32vmin;
   }
 
   .first_line {
     display: block;
-    padding-left: 9%;
-    padding-right: 26%;
+    padding-left: 9vmin;
+    padding-right: 26vmin;
   }
 
   .second_line {
     display: block;
-    padding-left: 24%;
-    padding-top: 3%;
-    padding-right: 8%;
+    padding-left: 24vmin;
+    padding-top: 3.8vmin;
+    padding-right: 10vmin;
   }
 }
 
 @media (max-width: 640px) {
   h1 {
     font-size: 8.75vmin;
-    letter-spacing: 0.3em;
-    padding-top: 44%;
-    padding-bottom: 9%;
+    letter-spacing: 1.6vmin;
+    padding-top: 44vmin;
+    padding-bottom: 9vmin;
     line-height: 1em;
   }
 
   .first_line {
     display: block;
-    margin-left: 3%;
-    margin-right: auto;
+    padding-left: 6.25vmin;
+    padding-right: 28.125vmin;
   }
 
   .second_line {
     display: block;
-    margin-left: 9%;
-    padding-top: 9%;
-    margin-right: auto;
+    padding-left: 18.75vmin;
+    padding-top: 9.375vmin;
+    padding-right: 12.5vmin;
   }
 }
 
@@ -247,42 +247,40 @@ h1 {
 
 @media (min-width: 961px) and (max-width: 1920px), (min-width: 1921px) {
   .apple_icon, .google_icon {
-    width: 14%;
-    height: 10%;
+    width: 2.18vmax;
+    height: 2.5vmax;
     fill: #ffffff;
-    padding-left: 8%;
-    padding-top: 3%;
     flex-shrink: 0;
   }
   
   .apple_store a, .google_store a {
-    padding-left: 5%;
-    padding-top: 2%;
+    padding-left: 2.3vmax;
+    padding-top: 0.6vmax;
   }
 
   .apple_store p {
     font-size: 0.72vmax;
     box-sizing: border-box;
-    padding-left: 3%;
-    padding-right: 27%;
+    padding-left: 1.56vmax;
+    padding-right: 3.125vmax;
   }
 
   .google_store p {
     font-size: 0.72vmax;
     box-sizing: border-box;
-    padding-left: 10%;
-    padding-right: 33%;
+    padding-left: 1.56vmax;
+    padding-right: 5.4vmax;
   }
 
   .apple_store, .google_store {
-    width: 45%;
+    width: 16.14vmax;
     margin-right: auto;
     margin-left: auto;
   }
 
   .buttons {
-    width: 35%;
-    padding-bottom: 10%;
+    width: 35vmax;
+    padding-bottom: 5.47vmax;
     margin-right: auto;
     margin-left: auto;
   }
@@ -290,35 +288,38 @@ h1 {
 
 @media (min-width: 641px) and (max-width: 960px) {
   .apple_icon, .google_icon {
-    width: 13%;
-    height: 12%;
+    width: 4.7vmin;
+    height: 5.4vmin;
     fill: #ffffff;
-    padding-left: 13%;
-    padding-top: 5%;
     flex-shrink: 0;
   }
+  
+  .apple_store a, .google_store a {
+    padding-left: 5.12vmin;
+    padding-top: 2.05vmin;
+  }  
 
   .apple_store p {
     font-size: 1.8vmin;
-    margin-left: 6%;
-    padding-right: 20%;
+    padding-left: 4vmin;
+    padding-right: 8vmin;
   }
 
   .google_store p {
     font-size: 1.8vmin;
-    margin-left: 9%;
-    padding-right: 34%;
+    padding-left: 4vmin;
+    padding-right: 15vmin;
   }
 
   .apple_store, .google_store {
-    width: 45%;
+    width: 40vmin;
     margin-left: auto;
     margin-right: auto;
   }
 
   .buttons {
-    width: 86%;
-    padding-bottom: 13%;
+    width: 84vmin;
+    padding-bottom: 12vmin;
     margin-left: auto;
     margin-right: auto;
   }
@@ -326,29 +327,21 @@ h1 {
 
 @media (max-width: 640px) {
   .apple_icon, .google_icon {
-    width: 7%;
-    height: 7%;
+    width: 6.25vmin;
+    height: 7.5vmin;
     fill: #ffffff;
-    margin-left: 28%;
+    padding-left: 25vmin;
     margin-top: auto;
     margin-bottom: auto;
     flex-shrink: 0;
   }
 
-  .apple_store p {
+  .apple_store p, .google_store p {
     font-size: 2.5vmin;
-    margin-left: 2%;
-    margin-top: 2%;
+    padding-left: 3.125vmin;
+    padding-top: 3.125vmin;
     margin-right: auto;
-    margin-bottom: 2%;
-  }
-
-  .google_store p {
-    font-size: 2.5vmin;
-    margin-left: 2%;
-    margin-top: 2%;
-    margin-right: auto;
-    margin-bottom: 2%;
+    padding-bottom: 3.125vmin;
   }
 
   .apple_store, .google_store {
@@ -357,13 +350,13 @@ h1 {
   }
 
   .apple_store {
-    margin-bottom: 2%;
+    margin-bottom: 4.375vmin;
   }
 
   .buttons {
-    width: 44%;
-    height: 35%;
-    padding-bottom: 25%;
+    width: 88vmin;
+    height: 28vmin;
+    padding-bottom: 26.5vmin;
   }
 }
 
@@ -481,44 +474,39 @@ main {
 @media (min-width: 961px) and (max-width: 1920px), (min-width: 1921px) {
  .card_name {
     font-size: 4.2vmax;
-    padding-top: 6%;
-    padding-bottom: 4%;
+    padding-top: 6vmax;
+    padding-bottom: 5vmax;
     line-height: 1em;
   }
   
   .subtitle {
     font-size: 1.875vmax;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.52vmax;
     line-height: 1em;
   }
   
-  .text {
+  .text, .text_growth {
     line-height: 1.5em;
-    padding-bottom: 3%;
-  }
-  
-  .text_growth {
-    line-height: 1.5em;
-    padding-bottom: 2.3%;
-    padding-top: 1%;
+    padding-bottom: 3.125vmax;
+    padding-top: 1.3vmax;
   }
   
   .small, .small_01 {
     font-size: 0.9375vmax;
-    border-bottom: 0.15em solid #5e42b0;
-    width: 1%;
+    border-bottom: 1vmax solid #5e42b0;
+    width: 1.14vmax;
     letter-spacing: initial;
     color: #000000;
   }
   
   .small_01 {
-     border-bottom: 0.15em solid #efefef;
+     border-bottom: 1vmax solid #efefef;
   }
   
   .small_02 {
     font-size: 0.9375vmax;
-    border-bottom: 0.15em solid #efefef;
-    width: 1%;
+    border-bottom: 1vmax solid #efefef;
+    width: 1.14vmax;
     letter-spacing: initial;
     color: #5e42b0;
   }
@@ -529,19 +517,19 @@ main {
   }
   
   .card_01 h2, .card_01 h3, .card_01 p {
-    padding-left: 52%;
-    padding-right: 10%;
+    padding-left: 52.45vmax;
+    padding-right: 10vmax;
   }
   
   .light_violet h3, .violet h3, .light_dark h3, .dark h3 {
-    padding-top: 1.5%;
+    padding-top: 3.125vmax;
   }  
   
   .footballer {
     position: absolute;
-    top: 3%;
-    left: 20%;
-    width: 30%;
+    top: 1.5625vmax;
+    left: 20.3125vmax;
+    width: 29.4vmax;
     z-index: 1;
   }
   
@@ -551,29 +539,29 @@ main {
   }
   
   .card_02 h3, .card_02 h2, .card_02 p {
-    padding-left: 10%;
-    padding-right: 49%;
+    padding-left: 10vmax;
+    padding-right: 51vmax;
   }
   
   .basketballer {
     position: absolute;
-    left: 42%;
-    top: 3%;
-    width: 48%;
+    left: 42vmax;
+    top: 1.5625vmax;
+    width: 51.6vmax;
   }
 }
 
 @media (min-width: 641px) and (max-width: 960px) {
   .card_name {
     font-size: 10.4vmin;
-    padding-top: 11%;
-    padding-bottom: 7%;
+    padding-top: 11vmin;
+    padding-bottom: 8vmin;
     line-height: 1em;
   }
   
   .subtitle {
     font-size: 4.16vmin;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.6vmin;
     line-height: 1em;
   }
   
@@ -581,32 +569,27 @@ main {
     line-height: 1.5em;
   }
   
-  .text {
-    padding-bottom: 4%;
-    padding-top: 3%;
-  }
-  
-  .text_growth {
-    padding-bottom: 3%;
-    padding-top: 3%;
+  .text, .text_growth {
+    padding-bottom: 5.12vmin;
+    padding-top: 4vmin;
   }
   
   .small, .small_01 {
     font-size: 2.34vmin;
-    border-bottom: 0.15em solid #5e42b0;
-    width: 1%;
+    border-bottom: 2.4vmin solid #5e42b0;
+    width: 2.8vmin;
     letter-spacing: initial;
     color: #000000;
   }
   
   .small_01 {
-     border-bottom: 0.15em solid #efefef;
+     border-bottom: 2.4vmin solid #efefef;
   }
   
   .small_02 {
     font-size: 2.34vmin;
-    border-bottom: 0.15em solid #efefef;
-    width: 1%;
+    border-bottom: 2.4vmin solid #efefef;
+    width: 2.8vmin;
     letter-spacing: initial;
     color: #5e42b0;
   }
@@ -617,19 +600,19 @@ main {
   }
   
   .card_01 h2, .card_01 h3, .card_01 p {
-    padding-left: 37%;
-    padding-right: 7%;
+    padding-left: 37vmin;
+    padding-right: 5.12vmin;
   }
   
    .light_violet h3, .violet h3, .light_dark h3, .dark h3 {
-    padding-top: 5%;
+    padding-top: 5.12vmin;
   }  
   
   .footballer {
     position: absolute;
-    left: -22%;
-    top: 12%;
-    width: 64%;
+    left: -21vmin;
+    top: 12vmin;
+    width: 64vmin;
   }
   
   .card_02, .white_02, .light_dark, .dark {
@@ -638,60 +621,53 @@ main {
   }
   
   .card_02 h3, .card_02 h2, .card_02 p {
-    padding-left: 4%;
-    padding-right: 45%;
+    padding-left: 3.46vmin;
+    padding-right: 46vmin;
   }
   
   .basketballer {
     position: absolute;
-    left: 43%;
-    top: 8%;
+    left: 42vmin;
+    top: 8vmin;
   }
 }
 
 @media (max-width: 640px) {
   .card_name {
     font-size: 15.6vmin;
-    padding-top: 9%;
-    padding-bottom: 100%;
+    padding-top: 7.8vmin;
+    padding-bottom: 102vmin;
     line-height: 1em;
   }
   
   .subtitle {
     font-size: 7.18vmin;
-    letter-spacing: 0.1em;
+    letter-spacing: 1.5625vmin;
     line-height: 1em;
-    padding-bottom: 9%;
   }
   
   .text, .text_growth {
     line-height: 1.5em;
-  }
-  
-  .text {
-    padding-bottom: 34%;
-  }
-  
-  .text_growth {
-    padding-bottom: 19%; 
+    padding-top: 8.75vmin;
+    padding-bottom: 17.1875vmin;
   }
   
   .small, .small_01 {
     font-size: 4.375vmin;
-    border-bottom: 0.15em solid #5e42b0;
-    width: 1%;
+    border-bottom: 4.6875vmin solid #5e42b0;
+    width: 5.625vmin;
     letter-spacing: initial;
     color: #000000;
   }
   
   .small_01 {
-     border-bottom: 0.15em solid #efefef;
+     border-bottom: 4.6875vmin solid #efefef;
   }
   
   .small_02 {
     font-size: 4.375vmin;
-    border-bottom: 0.15em solid #efefef;
-    width: 1%;
+    border-bottom: 4.6875vmin solid #efefef;
+    width: 5.625vmin;
     letter-spacing: initial;
     color: #5e42b0;
   }
@@ -702,15 +678,15 @@ main {
   }
   
   .card_01 h2, .card_01 h3, .card_01 p {
-    padding-left: 6%;
-    padding-right: 25%;
+    padding-left: 6.25vmin;
+    padding-right: 26.56vmin;
   }
   
   .footballer {
     position: absolute;
-    left: 25%;
-    top: 8%;
-    width: 60%;
+    left: 21.875vmin;
+    top: 6.25vmin;
+    width: 60vmin;
   }
   
   .card_02, .white_02, .light_dark, .dark {
@@ -719,14 +695,14 @@ main {
   }
   
   .card_02 h3, .card_02 h2, .card_02 p {
-    padding-left: 6%;
-    padding-right: 12%;
+    padding-left: 6.25vmin;
+    padding-right: 26.56vmin;
   }
   
   .basketballer {
     position: absolute;
-    top: 8%;
-    width: 80%;
+    top: 6.25vmin;
+    width: 94.375vmin;
   }
 }
 
