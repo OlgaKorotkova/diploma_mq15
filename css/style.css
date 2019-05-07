@@ -114,8 +114,11 @@ body {
   }
 }
 
-.logo_surface {
+.logo_icon {
   fill: #ffffff;
+  }
+
+.logo_surface {
   margin-left: auto;
   margin-right: auto;
   }
