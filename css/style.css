@@ -819,6 +819,7 @@ main {
     padding-left: 6vmax;
     padding-right: 10vmax;
     box-sizing: border-box;
+    width: 50%;
   }
 }
 
