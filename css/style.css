@@ -542,6 +542,7 @@ main {
     top: 3%;
     left: 20%;
     width: 30%;
+    z-index: 1;
   }
   
   .card_02, .white_02, .light_dark, .dark {
