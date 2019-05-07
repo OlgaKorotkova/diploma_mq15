@@ -154,15 +154,15 @@ h1 {
   h1 {
     font-size: 4.7vmax;
     letter-spacing: 1vmax;
-    padding-top: 14vmax;
-    padding-bottom: 11.5vmax;
+    padding-top: 12vmax;
+    padding-bottom: 10vmax;
     line-height: 1em;
   }
 
   .first_line {
     display: block;
     padding-left: 10vmax;
-    padding-right: 54vmax;
+    padding-right: 52vmax;
   }
 
   .second_line {
@@ -255,14 +255,14 @@ h1 {
   
   .apple_store a, .google_store a {
     padding-left: 2.3vmax;
-    padding-top: 0.6vmax;
+    padding-top: 0.8vmax;
   }
 
   .apple_store p {
     font-size: 0.72vmax;
     box-sizing: border-box;
     padding-left: 1.56vmax;
-    padding-right: 3.125vmax;
+    padding-right: 3vmax;
   }
 
   .google_store p {
@@ -493,19 +493,19 @@ main {
   
   .small, .small_01 {
     font-size: 0.9375vmax;
-    border-bottom: 1vmax solid #5e42b0;
+    border-bottom: 0.5vmax solid #5e42b0;
     width: 1.14vmax;
     letter-spacing: initial;
     color: #000000;
   }
   
   .small_01 {
-     border-bottom: 1vmax solid #efefef;
+     border-bottom: 0.5vmax solid #efefef;
   }
   
   .small_02 {
     font-size: 0.9375vmax;
-    border-bottom: 1vmax solid #efefef;
+    border-bottom: 0.5vmax solid #efefef;
     width: 1.14vmax;
     letter-spacing: initial;
     color: #5e42b0;
@@ -740,64 +740,64 @@ main {
 @media (min-width: 961px) and (max-width: 1920px), (min-width: 1921px) {
   .section_gallery h2 {
     font-size: 4.16vmax;
-    padding-top: 28%;
-    padding-bottom: 4%;
+    padding-top: 12vmax;
+    padding-bottom: 4vmax;
   }
 
   .section_gallery p {
     font-size: 1.25vmax;
-    padding-bottom: 18%;
+    padding-bottom: 12.7vmax;
   }
 
   .line_01:after {
     content: "01";
     background: #5e42b0;
-    width: 8%;
+    width: 8vmax;
     position: absolute;
-    top: 32%;
-    left: 47%;
+    top: 10vmax;
+    left: 45vmax;
     color: #ffffff;
     text-decoration: underline;
     text-align: center;
     font-size: 1.25vmax;
     font-weight: bold;
     line-height: 5vmax;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    padding-top: 3.125vmax;
+    padding-bottom: 3.125vmax;
 }
 
   .line_02:after {
     content: "02";
     background: #5e42b0;
-    width: 8%;
+    width: 8vmax;
     position: absolute;
-    top: 32%;
-    left: 47%;
+    top: 10vmax;
+    left: 45vmax;
     color: #ffffff;
     text-decoration: underline;
     text-align: center;
     font-size: 1.25vmax;
     font-weight: bold;
     line-height: 5vmax;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    padding-top: 3.125vmax;
+    padding-bottom: 3.125vmax;
 }
 
   .line_03:after {
     content: "03";
     background: #5e42b0;
-    width: 8%;
+    width: 8vmax;
     position: absolute;
-    top: 32%;
-    left: 47%;
+    top: 10vmax;
+    left: 45vmax;
     color: #ffffff;
     text-decoration: underline;
     text-align: center;
     font-size: 1.25vmax;
     font-weight: bold;
     line-height: 5vmax;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    padding-top: 3.125vmax;
+    padding-bottom: 3.125vmax;
 }
 
   .line_01, .line_02, .line_03 {
@@ -813,9 +813,8 @@ main {
   }
 
   .text_line_01, .text_line_02, .text_line_03 {
-    width: 50%;
-    padding-left: 7%;
-    padding-right: 11%;
+    padding-left: 6vmax;
+    padding-right: 10vmax;
     box-sizing: border-box;
   }
 }
@@ -823,23 +822,23 @@ main {
 @media (min-width: 641px) and (max-width: 960px) {
   .section_gallery h2 {
    font-size: 10.4vmin;
-   padding-top: 11%;
-   padding-bottom: 4%;
+   padding-top: 11vmin;
+   padding-bottom: 4vmin;
   }
 
   .section_gallery p {
     font-size: 3.125vmin;
-    padding-bottom: 13%;
+    padding-bottom: 13vmin;
   }
 
   .line_01:after {
     content: "01";
     background: #5e42b0;
-    width: 15%;
-    height: 10%;
+    width: 15vmin;
+    height: 15vmin;
     position: absolute;
-    bottom: 42%;
-    left: 4%;
+    bottom: 4vmin;
+    left: 4vmin;
     color: #ffffff;
     text-decoration: underline;
     text-align: center;
