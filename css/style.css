@@ -156,9 +156,9 @@ h1 {
 @media (min-width: 961px) and (max-width: 1920px), (min-width: 1921px) {
   h1 {
     font-size: 4.7vmax;
-    letter-spacing: 0.4vmax;
+    letter-spacing: 0.3vmax;
     padding-top: 12vmax;
-    padding-bottom: 10vmax;
+    padding-bottom: 8vmax;
     line-height: 1em;
   }
 
@@ -170,7 +170,7 @@ h1 {
 
   .second_line {
     display: block;
-    padding-left: 36vmax;
+    padding-left: 34vmax;
   }
 }
 
