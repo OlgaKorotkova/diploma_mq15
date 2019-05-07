@@ -247,25 +247,30 @@ h1 {
 
 @media (min-width: 961px) and (max-width: 1920px), (min-width: 1921px) {
   .apple_icon, .google_icon {
-    width: 12%;
+    width: 14%;
     height: 10%;
     fill: #ffffff;
     padding-left: 8%;
     padding-top: 3%;
     flex-shrink: 0;
   }
+  
+  .apple_store a, .google_store a {
+    padding-left: 5%;
+    padding-top: 2%;
+  }
 
   .apple_store p {
     font-size: 0.72vmax;
     box-sizing: border-box;
     padding-left: 3%;
-    padding-right: 30%;
+    padding-right: 27%;
   }
 
   .google_store p {
     font-size: 0.72vmax;
     box-sizing: border-box;
-    padding-left: 5%;
+    padding-left: 10%;
     padding-right: 35%;
   }
 
@@ -277,7 +282,7 @@ h1 {
 
   .buttons {
     width: 35%;
-    padding-bottom: 12%;
+    padding-bottom: 10%;
     margin-right: auto;
     margin-left: auto;
   }
