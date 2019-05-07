@@ -290,7 +290,7 @@ h1 {
 
 @media (min-width: 641px) and (max-width: 960px) {
   .apple_icon, .google_icon {
-    width: 11%;
+    width: 13%;
     height: 12%;
     fill: #ffffff;
     padding-left: 13%;
@@ -306,8 +306,8 @@ h1 {
 
   .google_store p {
     font-size: 1.8vmin;
-    margin-left: 7%;
-    padding-right: 35%;
+    margin-left: 9%;
+    padding-right: 34%;
   }
 
   .apple_store, .google_store {
@@ -318,7 +318,7 @@ h1 {
 
   .buttons {
     width: 86%;
-    padding-bottom: 11%;
+    padding-bottom: 12%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -574,7 +574,6 @@ main {
     font-size: 4.16vmin;
     letter-spacing: 0.1em;
     line-height: 1em;
-    padding-bottom: 4%;
   }
   
   .text, .text_growth {
@@ -582,11 +581,13 @@ main {
   }
   
   .text {
-    padding-bottom: 10%;
+    padding-bottom: 4%;
+    padding-top: 4%;
   }
   
   .text_growth {
-    padding-bottom: 5%; 
+    padding-bottom: 3%;
+    padding-top: 4%;
   }
   
   .small, .small_01 {
@@ -622,7 +623,8 @@ main {
   .footballer {
     position: absolute;
     left: -22%;
-    top: 13%;
+    top: 12%;
+    width: 64%;
   }
   
   .card_02, .white_02, .light_dark, .dark {
@@ -637,9 +639,9 @@ main {
   
   .basketballer {
     position: absolute;
-    left: 47%;
+    left: 43%;
     top: 8%;
-    width: 53%
+    width: 90%
   }
 }
 
