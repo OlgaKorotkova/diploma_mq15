@@ -51,7 +51,7 @@ body {
 
 @media (min-width: 961px) and (max-width: 1920px), (min-width: 1921px) {
   html {
-    font-size: 1.04vmax;
+    font-size: 1.05vmax;
   }
 
   .header {
@@ -144,21 +144,22 @@ h1 {
 
 @media (min-width: 961px) and (max-width: 1920px), (min-width: 1921px) {
   h1 {
-    font-size: 4.7vmax;
-    letter-spacing: 0.3vmax;
-    padding-top: 10%;
-    padding-bottom: 8%;
+    font-size: 4.45vmax;
+    padding-top: 15%;
+    padding-bottom: 11%;
     line-height: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   .first_line {
     display: block;
-    padding-left: 7%;
+    padding-left: 10%;
   }
 
   .second_line {
     display: block;
-    padding-left: 30%;
+    padding-left: 32%;
   }
 }
 
@@ -245,8 +246,7 @@ h1 {
   }
   
   .apple_store a, .google_store a {
-    padding-left: 2.3vmax;
-    padding-top: 0.5vmax;
+    padding-left: 2.4vmax;
   }
 
   .apple_store p {
@@ -259,7 +259,7 @@ h1 {
   .google_store p {
     font-size: 0.72vmax;
     box-sizing: border-box;
-    padding-left: 1.56vmax;
+    padding-left: 1.60vmax;
     padding-right: 4.4vmax;
   }
 
@@ -271,7 +271,7 @@ h1 {
 
   .buttons {
     width: 35vmax;
-    padding-bottom: 5.47vmax;
+    padding-bottom: 6%;
     margin-right: auto;
     margin-left: auto;
   }
@@ -709,9 +709,11 @@ main {
 
 @media (min-width: 961px) and (max-width: 1920px), (min-width: 1921px) {
   .section_gallery h2 {
-    font-size: 4.16vmax;
+    font-size: 4.42vmax;
     padding-top: 9%;
     line-height: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   .section_gallery p {
