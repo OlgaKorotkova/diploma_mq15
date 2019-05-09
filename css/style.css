@@ -744,7 +744,7 @@ main {
   .section_gallery h2 {
     font-size: 4.16vmax;
     padding-top: 9vmax;
-    padding-bottom: 3vmax;
+    padding-bottom: 2vmax;
   }
 
   .section_gallery p {
@@ -755,7 +755,7 @@ main {
   .line_01:after {
     content: "01";
     background: #5e42b0;
-    width: 5vmax;
+    width: 8vmax;
     position: absolute;
     top: 10vmax;
     left: 45vmax;
@@ -765,14 +765,12 @@ main {
     font-size: 1.25vmax;
     font-weight: bold;
     line-height: 5vmax;
-    padding-top: 3.125vmax;
-    padding-bottom: 3.125vmax;
 }
 
   .line_02:after {
     content: "02";
     background: #5e42b0;
-    width: 5vmax;
+    width: 9vmax;
     position: absolute;
     top: 10vmax;
     left: 45vmax;
@@ -782,14 +780,12 @@ main {
     font-size: 1.25vmax;
     font-weight: bold;
     line-height: 5vmax;
-    padding-top: 3.125vmax;
-    padding-bottom: 3.125vmax;
 }
 
   .line_03:after {
     content: "03";
     background: #5e42b0;
-    width: 5vmax;
+    width: 7vmax;
     position: absolute;
     top: 10vmax;
     left: 45vmax;
@@ -799,8 +795,6 @@ main {
     font-size: 1.25vmax;
     font-weight: bold;
     line-height: 5vmax;
-    padding-top: 3.125vmax;
-    padding-bottom: 3.125vmax;
 }
 
   .line_01, .line_02, .line_03 {
