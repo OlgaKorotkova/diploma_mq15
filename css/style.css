@@ -461,7 +461,7 @@ main {
 }
 
 @media (min-width: 961px) and (max-width: 1920px), (min-width: 1921px) {
-  main, .section_01, .section_02 {
+  main, .section_01, .section_02, .card_01, .card_02 {
     max-width: 1920px;
     width: 100%;
   }
