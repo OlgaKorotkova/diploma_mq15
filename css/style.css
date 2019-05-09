@@ -22,6 +22,7 @@ body {
   margin-bottom: 0;
   margin-left: auto;
   margin-right: auto;
+  width: 100%;
   max-width: 1920px;
 }
 
@@ -57,16 +58,12 @@ body {
     background-color: #0a0e34;
     background-image: url("../img/football_1920.jpg");
     background-size: cover;
-    max-width: 1920px;
-    width: 100%;
   }
 
   .footer {
     background-color: #0a0e34;
     background-image: url("../img/game_1920.jpg");
     background-size: cover;
-    max-width: 1920px;
-    width: 100%;
   }
 }
 
@@ -79,16 +76,12 @@ body {
     background-color: #0a0e34;
     background-image: url("../img/football_1280.jpg");
     background-size: cover;
-    max-width: 960px;
-    width: 100%;
   }
 
   .footer {
     background-color: #0a0e34;
     background-image: url("../img/game_1280.jpg");
     background-size: cover;
-    max-width: 960px;
-    width: 100%;
   }
 }
 
@@ -101,16 +94,12 @@ body {
     background-color: #0a0e34;
     background-image: url("../img/football_767.jpg");
     background-size: cover;
-    max-width: 640px;
-    width: 100%;
   }
 
   .footer {
     background-color: #0a0e34;
     background-image: url("../img/game_767.jpg");
     background-size: cover;
-    max-width: 640px;
-    width: 100%;
   }
 }
 
@@ -127,7 +116,7 @@ body {
   .logo_surface {
     width: 10%;
     height: 3%;
-    padding-top: 2vmax;
+    padding-top: 2%;
   }
 }
 
@@ -135,7 +124,7 @@ body {
   .logo_surface {
     width: 27%;
     height: 8%;
-    padding-top: 5vmin;
+    padding-top: 5%;
   }
 }
 
@@ -143,7 +132,7 @@ body {
   .logo_surface {
     width: 42%;
     height: 11%;
-    padding-top: 9.3vmin;
+    padding-top: 9%;
   }
 }
 
@@ -157,20 +146,19 @@ h1 {
   h1 {
     font-size: 4.7vmax;
     letter-spacing: 0.3vmax;
-    padding-top: 12vmax;
-    padding-bottom: 8vmax;
+    padding-top: 10%;
+    padding-bottom: 8%;
     line-height: 1em;
   }
 
   .first_line {
     display: block;
-    padding-left: 10%;
-    padding-right: 45%;
+    padding-left: 7%;
   }
 
   .second_line {
     display: block;
-    padding-left: 34%;
+    padding-left: 30%;
   }
 }
 
@@ -478,7 +466,7 @@ main {
     width: 100%;
   }
   
-  .white, .white_02, .light_violet, .violet, .loight_dark, .dark {
+  .white, .white_02, .light_violet, .violet, .light_dark, .dark {
     max-width: 1920px;
     width: 100%;
   }
@@ -526,7 +514,7 @@ main {
   
   .card_01 h2, .card_01 h3, .card_01 p {
     padding-left: 50%;
-    padding-right: 10%;
+    padding-right: 8%;
   }
   
   .light_violet h3, .violet h3, .light_dark h3, .dark h3 {
@@ -542,8 +530,8 @@ main {
   }
   
   .card_02 h3, .card_02 h2, .card_02 p {
-    padding-left: 10%;
-    padding-right: 50%;
+    padding-left: 8%;
+    padding-right: 48%;
   }
   
   .basketballer {
@@ -722,13 +710,13 @@ main {
 @media (min-width: 961px) and (max-width: 1920px), (min-width: 1921px) {
   .section_gallery h2 {
     font-size: 4.16vmax;
-    padding-top: 9vmax;
+    padding-top: 9%;
     line-height: 1em;
   }
 
   .section_gallery p {
     font-size: 1.25vmax;
-    padding-bottom: 7vmax;
+    padding-bottom: 7%;
     line-height: 1.5em;
   }
 
@@ -787,8 +775,8 @@ main {
   }
 
   .text_line_01, .text_line_02, .text_line_03 {
-    padding-left: 6vmax;
-    padding-right: 10vmax;
+    padding-left: 6%;
+    padding-right: 10%;
     box-sizing: border-box;
     width: 50%;
   }
