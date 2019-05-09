@@ -22,6 +22,7 @@ body {
   margin-bottom: 0;
   margin-left: auto;
   margin-right: auto;
+  width: 1920px;
 }
 
 .header, .footer {
@@ -32,6 +33,7 @@ body {
   background-position: center;
   margin-top: 0;
   margin-bottom: 0;
+  width: 100%;
 }
 
 .overlay, .footer_overlay {
@@ -356,6 +358,7 @@ main {
   box-sizing: border-box;
   margin-top: 0;
   margin-bottom: 0;
+  width: 100%;
 }
 
 .section_01 {
@@ -364,6 +367,7 @@ main {
   box-sizing: border-box;
   margin-top: 0;
   margin-bottom: 0;
+  width: 100%;
 }
 
 .white, .white_02 {
@@ -374,6 +378,7 @@ main {
   background-size: cover;
   margin-left: auto;
   margin-right: auto;
+  width: 100%;
 }
 
 .light_violet {
@@ -384,6 +389,7 @@ main {
   background-size: cover;
   margin-left: auto;
   margin-right: auto;
+  width: 100%;
 }
 
 .violet {
@@ -394,6 +400,7 @@ main {
   background-size: cover;
   margin-left: auto;
   margin-right: auto;
+  width: 100%;
 }
 
 .light_dark {
@@ -404,6 +411,7 @@ main {
   background-color: rgba(10,14,52,.1);
   margin-left: auto;
   margin-right: auto;
+  width: 100%;
 }
 
 .dark {
@@ -414,6 +422,7 @@ main {
   background-color: #0a0e34;
   margin-left: auto;
   margin-right: auto;
+  width: 100%;
 }
 
 .section_02 {
@@ -422,6 +431,7 @@ main {
   box-sizing: border-box;
   margin-top: 0;
   margin-bottom: 0;
+  width: 100%;
 }
 
 .card_01, .card_02 {
@@ -433,6 +443,7 @@ main {
   display: flex;
   flex-wrap: wrap;
   position: relative;
+  width: 100%;
 }
 
 .card_name {
