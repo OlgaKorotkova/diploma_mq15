@@ -744,12 +744,13 @@ main {
   .section_gallery h2 {
     font-size: 4.16vmax;
     padding-top: 9vmax;
-    padding-bottom: 2vmax;
+    line-height: 1em;
   }
 
   .section_gallery p {
     font-size: 1.25vmax;
     padding-bottom: 7vmax;
+    line-height: 1.5em;
   }
 
   .line_01:after {
@@ -757,8 +758,8 @@ main {
     background: #5e42b0;
     width: 8vmax;
     position: absolute;
-    top: 10vmax;
-    left: 45vmax;
+    top: 8vmax;
+    left: 42vmax;
     color: #ffffff;
     text-decoration: underline;
     text-align: center;
@@ -770,10 +771,10 @@ main {
   .line_02:after {
     content: "02";
     background: #5e42b0;
-    width: 9vmax;
+    width: 8vmax;
     position: absolute;
-    top: 10vmax;
-    left: 45vmax;
+    top: 8vmax;
+    left: 42vmax;
     color: #ffffff;
     text-decoration: underline;
     text-align: center;
@@ -785,10 +786,10 @@ main {
   .line_03:after {
     content: "03";
     background: #5e42b0;
-    width: 7vmax;
+    width: 8vmax;
     position: absolute;
-    top: 10vmax;
-    left: 45vmax;
+    top: 8vmax;
+    left: 42vmax;
     color: #ffffff;
     text-decoration: underline;
     text-align: center;
