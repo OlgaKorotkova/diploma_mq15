@@ -33,7 +33,6 @@ body {
   background-position: center;
   margin-top: 0;
   margin-bottom: 0;
-  width: 100%;
 }
 
 .overlay, .footer_overlay {
@@ -58,12 +57,16 @@ body {
     background-color: #0a0e34;
     background-image: url("../img/football_1920.jpg");
     background-size: cover;
+    max-width: 1920px;
+    width: 100%;
   }
 
   .footer {
     background-color: #0a0e34;
     background-image: url("../img/game_1920.jpg");
     background-size: cover;
+    max-width: 1920px;
+    width: 100%;
   }
 }
 
@@ -76,12 +79,16 @@ body {
     background-color: #0a0e34;
     background-image: url("../img/football_1280.jpg");
     background-size: cover;
+    max-width: 960px;
+    width: 100%;
   }
 
   .footer {
     background-color: #0a0e34;
     background-image: url("../img/game_1280.jpg");
     background-size: cover;
+    max-width: 960px;
+    width: 100%;
   }
 }
 
@@ -94,12 +101,16 @@ body {
     background-color: #0a0e34;
     background-image: url("../img/football_767.jpg");
     background-size: cover;
+    max-width: 640px;
+    width: 100%;
   }
 
   .footer {
     background-color: #0a0e34;
     background-image: url("../img/game_767.jpg");
     background-size: cover;
+    max-width: 640px;
+    width: 100%;
   }
 }
 
@@ -153,13 +164,13 @@ h1 {
 
   .first_line {
     display: block;
-    padding-left: 10vmax;
-    padding-right: 45vmax;
+    padding-left: 10%;
+    padding-right: 45%;
   }
 
   .second_line {
     display: block;
-    padding-left: 34vmax;
+    padding-left: 34%;
   }
 }
 
@@ -168,21 +179,21 @@ h1 {
     line-height: 1em;
     font-size: 8.3vmin;
     letter-spacing: 1.2vmin;
-    padding-top: 15vmin;
-    padding-bottom: 32vmin;
+    padding-top: 15%;
+    padding-bottom: 32%;
   }
 
   .first_line {
     display: block;
-    padding-left: 9vmin;
-    padding-right: 26vmin;
+    padding-left: 9%;
+    padding-right: 26%;
   }
 
   .second_line {
     display: block;
-    padding-left: 24vmin;
-    padding-top: 3.8vmin;
-    padding-right: 10vmin;
+    padding-left: 24%;
+    padding-top: 3%;
+    padding-right: 10%;
   }
 }
 
@@ -190,22 +201,22 @@ h1 {
   h1 {
     font-size: 8.75vmin;
     letter-spacing: 1.6vmin;
-    padding-top: 44vmin;
-    padding-bottom: 9vmin;
+    padding-top: 44%;
+    padding-bottom: 9%;
     line-height: 1em;
   }
 
   .first_line {
     display: block;
-    padding-left: 6.25vmin;
-    padding-right: 28.125vmin;
+    padding-left: 6%;
+    padding-right: 28%;
   }
 
   .second_line {
     display: block;
-    padding-left: 18.75vmin;
-    padding-top: 9.375vmin;
-    padding-right: 12.5vmin;
+    padding-left: 18%;
+    padding-top: 9%;
+    padding-right: 12%;
   }
 }
 
@@ -358,7 +369,6 @@ main {
   box-sizing: border-box;
   margin-top: 0;
   margin-bottom: 0;
-  width: 100%;
 }
 
 .section_01 {
@@ -367,7 +377,6 @@ main {
   box-sizing: border-box;
   margin-top: 0;
   margin-bottom: 0;
-  width: 100%;
 }
 
 .white, .white_02 {
@@ -378,7 +387,6 @@ main {
   background-size: cover;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
 }
 
 .light_violet {
@@ -389,7 +397,6 @@ main {
   background-size: cover;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
 }
 
 .violet {
@@ -400,7 +407,6 @@ main {
   background-size: cover;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
 }
 
 .light_dark {
@@ -411,7 +417,6 @@ main {
   background-color: rgba(10,14,52,.1);
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
 }
 
 .dark {
@@ -422,7 +427,6 @@ main {
   background-color: #0a0e34;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
 }
 
 .section_02 {
@@ -431,7 +435,6 @@ main {
   box-sizing: border-box;
   margin-top: 0;
   margin-bottom: 0;
-  width: 100%;
 }
 
 .card_01, .card_02 {
@@ -443,7 +446,6 @@ main {
   display: flex;
   flex-wrap: wrap;
   position: relative;
-  width: 100%;
 }
 
 .card_name {
@@ -471,10 +473,20 @@ main {
 }
 
 @media (min-width: 961px) and (max-width: 1920px), (min-width: 1921px) {
- .card_name {
+  main, .section_01, .section_02 {
+    max-width: 1920px;
+    width: 100%;
+  }
+  
+  .white, .white_02, .light_violet, .violet, .loight_dark, .dark {
+    max-width: 1920px;
+    width: 100%;
+  }
+  
+  .card_name {
     font-size: 4.2vmax;
-    padding-top: 6vmax;
-    padding-bottom: 5vmax;
+    padding-top: 6%;
+    padding-bottom: 5%;
     line-height: 1em;
   }
   
@@ -486,7 +498,7 @@ main {
   
   .text, .text_growth {
     line-height: 1.5em;
-    padding-bottom: 3.125vmax;
+    padding-bottom: 3%;
     word-spacing: 0.4vmax;
   }
   
@@ -513,12 +525,12 @@ main {
   }
   
   .card_01 h2, .card_01 h3, .card_01 p {
-    padding-left: 52.45vmax;
-    padding-right: 10vmax;
+    padding-left: 50%;
+    padding-right: 10%;
   }
   
   .light_violet h3, .violet h3, .light_dark h3, .dark h3 {
-    padding-top: 3.125vmax;
+    padding-top: 3%;
   }  
   
   .footballer {
@@ -530,8 +542,8 @@ main {
   }
   
   .card_02 h3, .card_02 h2, .card_02 p {
-    padding-left: 10vmax;
-    padding-right: 51vmax;
+    padding-left: 10%;
+    padding-right: 50%;
   }
   
   .basketballer {
