@@ -167,13 +167,13 @@ h1 {
   .first_line {
     display: block;
     padding-left: 10%;
-    letter-spacing: 0.1vmax;
+    letter-spacing: 0.2vmax;
   }
 
   .second_line {
     display: block;
     padding-left: 34%;
-    letter-spacing: 0.1vmax;
+    letter-spacing: 0.2vmax;
   }
 }
 
@@ -285,7 +285,7 @@ h1 {
 
   .buttons {
     width: 35vmax;
-    padding-bottom: 5.5%;
+    padding-bottom: 5.7%;
     margin-right: auto;
     margin-left: auto;
   }
