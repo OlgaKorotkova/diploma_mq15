@@ -504,8 +504,12 @@ main, .section_01, .section_02 {
     padding-right: 8%;
   }
   
-  .light_violet h3, .violet h3, .light_dark h3, .dark h3 {
+  .violet h3, .light_dark h3, .dark h3 {
     padding-top: 3%;
+  }  
+  
+  .light_violet h3 {
+    padding-top: 2.5%;
   }  
   
   .footballer {
