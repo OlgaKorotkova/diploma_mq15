@@ -451,13 +451,13 @@ main, .section_01, .section_02 {
   .card_01 .card_name {
     font-size: 4.2vmax;
     padding-top: 5.5%;
-    padding-bottom: 4%;
+    padding-bottom: 4.5%;
     line-height: 1em;
   }
   
   .card_02 .card_name {
     font-size: 4.2vmax;
-    padding-top: 7%;
+    padding-top: 4%;
     padding-bottom: 6%;
     line-height: 1em;
   }
@@ -470,7 +470,7 @@ main, .section_01, .section_02 {
   
   .text, .text_growth {
     line-height: 1.5em;
-    padding-bottom: 3%;
+    padding-bottom: 3.5%;
     padding-top: 1%;
     word-spacing: 0.4vmax;
     margin-top: 0;
@@ -500,7 +500,7 @@ main, .section_01, .section_02 {
   }
   
   .card_01 h2, .card_01 h3, .card_01 p {
-    padding-left: 52%;
+    padding-left: 52.5%;
     padding-right: 8%;
   }
   
@@ -517,14 +517,14 @@ main, .section_01, .section_02 {
   }
   
   .card_02 h3, .card_02 h2, .card_02 p {
-    padding-left: 9%;
+    padding-left: 10%;
     padding-right: 48%;
   }
   
   .basketballer {
     position: absolute;
-    left: 38%;
-    top: 3%;
+    left: 42%;
+    top: 2%;
     width: 48%;
   }
 }
