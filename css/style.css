@@ -470,7 +470,7 @@ main, .section_01, .section_02 {
   
   .text, .text_growth {
     line-height: 1.5em;
-    padding-bottom: 5%;
+    padding-bottom: 3%;
     padding-top: 1%;
     word-spacing: 0.4vmax;
     margin-top: 0;
