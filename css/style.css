@@ -709,7 +709,7 @@ main, .section_01, .section_02 {
 @media (min-width: 961px) and (max-width: 1920px), (min-width: 1921px) {
   .section_gallery h2 {
     font-size: 4.42vmax;
-    padding-top: 9%;
+    padding-top: 38%;
     line-height: 1em;
     margin-top: 0;
     margin-bottom: 0;
@@ -717,8 +717,10 @@ main, .section_01, .section_02 {
 
   .section_gallery p {
     font-size: 1.25vmax;
-    padding-bottom: 7%;
+    padding-bottom: 14%;
     line-height: 1.5em;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   .line_01:after {
