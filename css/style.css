@@ -513,7 +513,7 @@ main, .section_01, .section_02 {
   }  
   
   .violet h3 {
-    padding-top: 4%;
+    padding-top: 6%;
   }
   
   .footballer {
@@ -532,7 +532,6 @@ main, .section_01, .section_02 {
   .basketballer {
     position: absolute;
     left: 42%;
-    top: 2%;
     width: 50%;
   }
 }
