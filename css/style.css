@@ -470,7 +470,7 @@ main, .section_01, .section_02 {
   
   .text, .text_growth {
     line-height: 1.5em;
-    padding-bottom: 3%;
+    padding-bottom: 2.8%;
     padding-top: 1%;
     word-spacing: 0.4vmax;
     margin-top: 0;
@@ -513,7 +513,7 @@ main, .section_01, .section_02 {
   }  
   
   .violet h3 {
-    padding-top: 3%;
+    padding-top: 2%;
   }
   
   .footballer {
