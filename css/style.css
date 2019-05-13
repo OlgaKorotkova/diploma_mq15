@@ -726,16 +726,16 @@ main, .section_01, .section_02 {
   .line_01:after {
     content: "01";
     background: #5e42b0;
-    width: 8%;
+    width: 8.3%;
     position: absolute;
-    top: 8%;
-    left: 42%;
+    top: 34%;
+    left: 46%;
     color: #ffffff;
     text-decoration: underline;
     text-align: center;
     font-size: 1.25vmax;
     font-weight: bold;
-    line-height: 5vmax;
+    line-height: 8vmax;
 }
 
   .line_02:after {
