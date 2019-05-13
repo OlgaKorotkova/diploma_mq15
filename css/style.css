@@ -457,8 +457,8 @@ main, .section_01, .section_02 {
   
   .card_02 .card_name {
     font-size: 4.2vmax;
-    padding-top: 3%;
-    padding-bottom: 6%;
+    padding-top: 6%;
+    padding-bottom: 4.5%;
     line-height: 1em;
   }
   
@@ -504,8 +504,12 @@ main, .section_01, .section_02 {
     padding-right: 8%;
   }
   
-  .light_dark h3, .dark h3 {
-    padding-top: 3%;
+  .dark h3 {
+    padding-top: 2.8%;
+  }  
+  
+   .light_dark h3 {
+    padding-top: 2.5%;
   }  
   
   .light_violet h3 {
@@ -531,8 +535,9 @@ main, .section_01, .section_02 {
   
   .basketballer {
     position: absolute;
-    left: 42%;
+    left: 43%;
     width: 50%;
+    padding-top: 2%;
   }
 }
 
