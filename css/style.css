@@ -717,7 +717,7 @@ main, .section_01, .section_02 {
 
   .section_gallery p {
     font-size: 1.25vmax;
-    padding-bottom: 14%;
+    padding-top: 14%;
     line-height: 1.5em;
     margin-top: 0;
     margin-bottom: 0;
