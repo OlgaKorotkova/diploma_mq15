@@ -307,7 +307,7 @@ h1 {
   .apple_store p {
     box-sizing: border-box;
     font-size: 1.8vmin;
-    padding-left: 4vmin;
+    padding-left: 2vmin;
     padding-right: 8vmin;
     padding-top: 1vmin;
   }
@@ -315,7 +315,7 @@ h1 {
   .google_store p {
     box-sizing: border-box;
     font-size: 1.8vmin;
-    padding-left: 4vmin;
+    padding-left: 3vmin;
     padding-right: 10vmin;
     padding-top: 1vmin;
   }
