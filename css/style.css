@@ -183,7 +183,7 @@ h1 {
     font-size: 8.3vmin;
     letter-spacing: 0.5vmin;
     padding-top: 21%;
-    padding-bottom: 35%;
+    padding-bottom: 40%;
     margin-top: 0;
     margin-bottom: 0;
   }
@@ -293,7 +293,7 @@ h1 {
 
 @media (min-width: 641px) and (max-width: 960px) {
   .apple_icon, .google_icon {
-    width: 4.7vmin;
+    width: 6.7vmin;
     height: 5.4vmin;
     fill: #ffffff;
     padding-top: 2vmin;
@@ -309,13 +309,15 @@ h1 {
     font-size: 1.8vmin;
     padding-left: 4vmin;
     padding-right: 8vmin;
+    padding-top: 1vmin;
   }
 
   .google_store p {
     box-sizing: border-box;
     font-size: 1.8vmin;
     padding-left: 4vmin;
-    padding-right: 15vmin;
+    padding-right: 10vmin;
+    padding-top: 1vmin;
   }
 
   .apple_store, .google_store {
@@ -544,10 +546,20 @@ main, .section_01, .section_02 {
 }
 
 @media (min-width: 641px) and (max-width: 960px) {
+  main, .section_01, .section_02, .card_01, .card_02 {
+    max-width: 960px;
+    width: 100%;
+  }
+  
+  .white, .white_02, .light_violet, .violet, .light_dark, .dark {
+    max-width: 960px;
+    width: 100%;
+  }
+  
   .card_name {
     font-size: 10.4vmin;
     padding-top: 11vmin;
-    padding-bottom: 8vmin;
+    padding-bottom: 4.5vmin;
     line-height: 1em;
   }
   
@@ -568,10 +580,11 @@ main, .section_01, .section_02 {
   
   .small, .small_01 {
     font-size: 2.34vmin;
-    border-bottom: 2.4vmin solid #5e42b0;
+    border-bottom: 0.7vmin solid #5e42b0;
     width: 2.8vmin;
     letter-spacing: initial;
     color: #000000;
+    padding-right: 0.6vmin;
   }
   
   .small_01 {
@@ -587,7 +600,7 @@ main, .section_01, .section_02 {
   }
   
   .card_01 h2, .card_01 h3, .card_01 p {
-    padding-left: 37vmin;
+    padding-left: 38vmin;
     padding-right: 5.12vmin;
   }
   
