@@ -735,17 +735,17 @@ main, .section_01, .section_02 {
   
   .text_line_01 p {
     padding-top: 14%;
-    padding-bottom: 30%;
+    padding-bottom: 40%;
   }
   
   .text_line_02 p {
     padding-top: 12%;
-    padding-bottom: 30%;
+    padding-bottom: 40%;
   }
   
   .text_line_03 p {
     padding-top: 12%;
-    padding-bottom: 30%;
+    padding-bottom: 40%;
   }
 
   .line_01:after {
