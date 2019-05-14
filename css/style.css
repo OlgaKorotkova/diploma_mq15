@@ -723,7 +723,7 @@ main, .section_01, .section_02 {
   }
   
   .text_line_03 h2 {
-    padding-top: 36%;
+    padding-top: 40%;
   }
 
   .section_gallery p {
@@ -818,7 +818,7 @@ main, .section_01, .section_02 {
   
   .text_line_03 {
     padding-left: 6%;
-    padding-right: 8%;
+    padding-right: 13%;
     box-sizing: border-box;
     width: 50%;
   }   
