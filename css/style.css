@@ -719,11 +719,11 @@ main, .section_01, .section_02 {
   }
   
   .text_line_02 h2 {
-    padding-top: 50%;
+    padding-top: 40%;
   }
   
   .text_line_03 h2 {
-    padding-top: 30%;
+    padding-top: 40%;
   }
 
   .section_gallery p {
@@ -734,26 +734,26 @@ main, .section_01, .section_02 {
   }
   
   .text_line_01 p {
-    padding-top: 14%;
+    padding-top: 17%;
     padding-bottom: 40%;
   }
   
   .text_line_02 p {
-    padding-top: 12%;
+    padding-top: 10%;
     padding-bottom: 40%;
   }
   
   .text_line_03 p {
-    padding-top: 12%;
+    padding-top: 14%;
     padding-bottom: 40%;
   }
 
   .line_01:after {
     content: "01";
     background: #5e42b0;
-    width: 8.3%;
+    width: 8.5%;
     position: absolute;
-    top: 34%;
+    top: 30%;
     left: 46%;
     color: #ffffff;
     text-decoration: underline;
@@ -766,9 +766,9 @@ main, .section_01, .section_02 {
   .line_02:after {
     content: "02";
     background: #5e42b0;
-    width: 8.4%;
+    width: 8.5%;
     position: absolute;
-    top: 40%;
+    top: 29%;
     left: 46%;
     color: #ffffff;
     text-decoration: underline;
@@ -781,16 +781,16 @@ main, .section_01, .section_02 {
   .line_03:after {
     content: "03";
     background: #5e42b0;
-    width: 8.4%;
+    width: 8.5%;
     position: absolute;
-    top: 34%;
+    top: 27%;
     left: 46%;
     color: #ffffff;
     text-decoration: underline;
     text-align: center;
     font-size: 1.25vmax;
     font-weight: bold;
-    line-height: 5vmax;
+    line-height: 8vmax;
 }
 
   .image_01, .image_02, .image_03 {
