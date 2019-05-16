@@ -970,7 +970,7 @@ main, .section_01, .section_02 {
     text-align: center;
     font-size: 3.125vmin;
     font-weight: bold;
-    line-height: 13vmin;
+    line-height: 13vmax;
   }
 
   .image_01, .image_02, .image_03 {
@@ -1072,8 +1072,8 @@ main, .section_01, .section_02 {
 
 .icon_download {
   background: #5e42b0;
-  border-radius: 12px;
-  padding: 0.5%;
+  border-radius: 25px;
+  padding: 1.5%;
 }
 
 .button_download {
@@ -1141,38 +1141,36 @@ main, .section_01, .section_02 {
 
 @media (min-width: 641px) and (max-width: 960px) {
   .icon_download {
-    width: 17%;
+    width: 16%;
     height: 19%;
     margin-left: auto;
     margin-right: auto;
   }
 
   .text_and_icon {
-    width: 90%;
     padding-top: 17%;
-    padding-bottom: 36%;
+    padding-bottom: 38%;
   }
 
   .footer h2 {
     font-size: 10.4vmin;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.5vmin;
     line-height: 1em;
-    width: 100%;
     padding-top: 11%;
-    padding-bottom: 4%;
   }
 
   .text_footer p {
     font-size: 4.6875vmin;
     line-height: 1em;
+    padding-left: 5%;
   }
 
   .footer .buttons {
-    padding-bottom: 7%;
+    padding-bottom: 2%;
   }
 
   .footer .logo_surface {
-    padding-bottom: 3%;
+    padding-bottom: 2%;
   }
 }
 
