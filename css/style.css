@@ -569,13 +569,25 @@ main, .section_01, .section_02 {
     line-height: 1em;
   }
   
-  .text, .text_growth {
-    line-height: 1.5em;
+  .white p {
+    padding-bottom: 5.12vmin;
+    padding-top: 3vmin;
+  }
+  
+  .light_violet p {
+    padding-bottom: 5.12vmin;
+    padding-top: 3vmin;
+  }
+  
+  .violet p {
+    padding-bottom: 5.12vmin;
+    padding-top: 3vmin;
   }
   
   .text, .text_growth {
-    padding-bottom: 5.12vmin;
-    padding-top: 4vmin;
+    line-height: 1.5em;
+    margin-top: 0;
+    margin-bottom: 0;
   }
   
   .small, .small_01 {
@@ -588,12 +600,12 @@ main, .section_01, .section_02 {
   }
   
   .small_01 {
-     border-bottom: 2.4vmin solid #efefef;
+     border-bottom: 0.7vmin solid #efefef;
   }
   
   .small_02 {
     font-size: 2.34vmin;
-    border-bottom: 2.4vmin solid #efefef;
+    border-bottom: 0.7vmin solid #efefef;
     width: 2.8vmin;
     letter-spacing: initial;
     color: #5e42b0;
