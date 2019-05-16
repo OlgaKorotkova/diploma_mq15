@@ -575,7 +575,7 @@ main, .section_01, .section_02 {
   }
   
   .light_violet p {
-    padding-bottom: 5.12vmin;
+    padding-bottom: 6vmin;
     padding-top: 3vmin;
   }
   
@@ -596,7 +596,7 @@ main, .section_01, .section_02 {
     width: 2.8vmin;
     letter-spacing: initial;
     color: #000000;
-    padding-right: 0.6vmin;
+    margin-right: 0.6vmin;
   }
   
   .small_01 {
@@ -609,14 +609,27 @@ main, .section_01, .section_02 {
     width: 2.8vmin;
     letter-spacing: initial;
     color: #5e42b0;
+    margin-right: 0.6vmin;
   }
   
   .card_01 h2, .card_01 h3, .card_01 p {
     padding-left: 38vmin;
-    padding-right: 5.12vmin;
+    padding-right: 10vmin;
   }
   
-   .light_violet h3, .violet h3, .light_dark h3, .dark h3 {
+   .light_violet h3 {
+    padding-top: 4vmin;
+  }  
+  
+  .violet h3 {
+    padding-top: 5.12vmin;
+  }  
+  
+  .light_dark h3 {
+    padding-top: 5.12vmin;
+  }  
+  
+  .dark h3 {
     padding-top: 5.12vmin;
   }  
   
