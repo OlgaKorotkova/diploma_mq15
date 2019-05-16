@@ -1112,7 +1112,7 @@ main, .section_01, .section_02 {
 
   .text_and_icon {
     width: 50%;
-    padding-bottom: 9%;
+    padding-bottom: 7%;
     padding-top: 12%;
   }
 
@@ -1131,7 +1131,7 @@ main, .section_01, .section_02 {
   }
 
   .footer .buttons {
-    padding-bottom: 10.5%;
+    padding-bottom: 11.5%;
   }
 
   .footer .logo_surface {
