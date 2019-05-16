@@ -339,18 +339,15 @@ h1 {
     width: 6.25vmin;
     height: 7.5vmin;
     fill: #ffffff;
-    padding-left: 25vmin;
-    margin-top: auto;
-    margin-bottom: auto;
     flex-shrink: 0;
   }
 
   .apple_store p, .google_store p {
     font-size: 2.5vmin;
-    padding-left: 3.125vmin;
-    padding-top: 3.125vmin;
-    margin-right: auto;
-    padding-bottom: 3.125vmin;
+  }
+  
+  .bold {
+    font-size: 2.5vmin;
   }
 
   .apple_store, .google_store {
@@ -364,7 +361,6 @@ h1 {
 
   .buttons {
     width: 88vmin;
-    height: 28vmin;
     margin-left: auto;
     margin-right: auto;
     padding-bottom: 50vmin;
