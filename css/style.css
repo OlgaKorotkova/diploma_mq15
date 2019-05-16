@@ -708,7 +708,7 @@ main, .section_01, .section_02 {
   }
   
   .light_violet h3 {
-    padding-top: 16vmin;
+    padding-top: 18vmin;
   }
   
   .violet h3 {
@@ -726,7 +726,7 @@ main, .section_01, .section_02 {
   .text {
     line-height: 1.5em;
     padding-top: 5vmin;
-    padding-bottom: 15vmin;
+    padding-bottom: 10vmin;
     margin-top: 0;
     margin-bottom: 0;
   }
@@ -780,8 +780,9 @@ main, .section_01, .section_02 {
   
   .basketballer {
     position: absolute;
-    top: 6%;
+    top: 9%;
     width: 90%;
+    left: 4%;
   }
 }
 
