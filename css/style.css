@@ -556,10 +556,17 @@ main, .section_01, .section_02 {
     width: 100%;
   }
   
-  .card_name {
+  .card_01 .card_name {
     font-size: 10.4vmin;
     padding-top: 11vmin;
     padding-bottom: 4.5vmin;
+    line-height: 1em;
+  }
+  
+  .card_02 .card_name {
+    font-size: 10.4vmin;
+    padding-top: 10vmin;
+    padding-bottom: 5vmin;
     line-height: 1em;
   }
   
@@ -572,6 +579,11 @@ main, .section_01, .section_02 {
   .white p {
     padding-bottom: 5.12vmin;
     padding-top: 3vmin;
+  }
+  
+  .white_02 p {
+    padding-bottom: 5.12vmin;
+    padding-top: 4.5vmin;
   }
   
   .light_violet p {
@@ -641,7 +653,7 @@ main, .section_01, .section_02 {
   }
   
   .card_02 h3, .card_02 h2, .card_02 p {
-    padding-left: 3.46vmin;
+    padding-left: 4.5vmin;
     padding-right: 46vmin;
   }
   
