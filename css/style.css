@@ -708,11 +708,11 @@ main, .section_01, .section_02 {
   }
   
   .light_violet h3 {
-    padding-top: 10vmin;
+    padding-top: 16vmin;
   }
   
   .violet h3 {
-    padding-top: 10vmin;
+    padding-top: 14vmin;
   }
   
   .light_dark h3 {
@@ -723,10 +723,18 @@ main, .section_01, .section_02 {
     padding-top: 10vmin;
   }
   
-  .text, .text_growth {
+  .text {
     line-height: 1.5em;
     padding-top: 5vmin;
-    padding-bottom: 17.1875vmin;
+    padding-bottom: 15vmin;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  .text_growth {
+    line-height: 1.5em;
+    padding-top: 5vmin;
+    padding-bottom: 17vmin;
     margin-top: 0;
     margin-bottom: 0;
   }
@@ -737,11 +745,11 @@ main, .section_01, .section_02 {
     width: 5.625vmin;
     letter-spacing: initial;
     color: #000000;
-    margin-right: 1vmin;
+    margin-right: 3vmin;
   }
   
   .small_01 {
-     border-bottom: 1vmin solid #efefef;
+     border-bottom: 3vmin solid #efefef;
   }
   
   .small_02 {
@@ -750,7 +758,7 @@ main, .section_01, .section_02 {
     width: 5.625vmin;
     letter-spacing: initial;
     color: #5e42b0;
-    margin-right: 1vmin;
+    margin-right: 3vmin;
   }
   
   .card_01 h2, .card_01 h3, .card_01 p {
