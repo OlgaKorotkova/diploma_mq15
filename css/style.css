@@ -591,7 +591,17 @@ main, .section_01, .section_02 {
     padding-top: 3vmin;
   }
   
+  .light_dark p {
+    padding-bottom: 6vmin;
+    padding-top: 3vmin;
+  }
+  
   .violet p {
+    padding-bottom: 5.12vmin;
+    padding-top: 3vmin;
+  }
+  
+  .dark p {
     padding-bottom: 5.12vmin;
     padding-top: 3vmin;
   }
