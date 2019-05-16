@@ -719,6 +719,10 @@ main, .section_01, .section_02 {
     padding-top: 10vmin;
   }
   
+  .white_02 h3 {
+    padding-top: 10vmin;
+  }
+  
   .dark h3 {
     padding-top: 10vmin;
   }
