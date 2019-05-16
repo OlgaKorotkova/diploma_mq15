@@ -203,9 +203,9 @@ h1 {
 @media (max-width: 640px) {
   h1 {
     font-size: 8.75vmin;
-    letter-spacing: 1.6vmin;
-    padding-top: 44%;
-    padding-bottom: 9%;
+    letter-spacing: 0.3vmin;
+    padding-top: 38.5%;
+    padding-bottom: 25%;
     line-height: 1em;
     margin-top: 0;
     margin-bottom: 0;
@@ -213,13 +213,13 @@ h1 {
 
   .first_line {
     display: block;
-    padding-left: 6%;
+    padding-left: 7%;
   }
 
   .second_line {
     display: block;
-    padding-left: 18%;
-    padding-top: 9%;
+    padding-left: 21%;
+    padding-top: 7%;
   }
 }
 
@@ -365,7 +365,9 @@ h1 {
   .buttons {
     width: 88vmin;
     height: 28vmin;
-    padding-bottom: 26.5vmin;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50vmin;
   }
 }
 
