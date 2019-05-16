@@ -565,7 +565,7 @@ main, .section_01, .section_02 {
   
   .card_02 .card_name {
     font-size: 10.4vmin;
-    padding-top: 10vmin;
+    padding-top: 9.5vmin;
     padding-bottom: 5vmin;
     line-height: 1em;
   }
@@ -583,7 +583,7 @@ main, .section_01, .section_02 {
   
   .white_02 p {
     padding-bottom: 5.12vmin;
-    padding-top: 4.5vmin;
+    padding-top: 3.5vmin;
   }
   
   .light_violet p {
@@ -644,15 +644,15 @@ main, .section_01, .section_02 {
   }  
   
   .violet h3 {
-    padding-top: 5.12vmin;
+    padding-top: 4.5vmin;
   }  
   
   .light_dark h3 {
-    padding-top: 5.12vmin;
+    padding-top: 4vmin;
   }  
   
   .dark h3 {
-    padding-top: 5.12vmin;
+    padding-top: 3.5vmin;
   }  
   
   .footballer {
@@ -669,8 +669,8 @@ main, .section_01, .section_02 {
   
   .basketballer {
     position: absolute;
-    left: 42%;
-    top: 8%;
+    left: 44%;
+    top: 5%;
   }
 }
 
