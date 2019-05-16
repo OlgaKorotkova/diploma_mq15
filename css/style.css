@@ -207,19 +207,19 @@ h1 {
     padding-top: 44%;
     padding-bottom: 9%;
     line-height: 1em;
+    margin-top: 0;
+    margin-bottom: 0;
   }
 
   .first_line {
     display: block;
     padding-left: 6%;
-    padding-right: 28%;
   }
 
   .second_line {
     display: block;
     padding-left: 18%;
     padding-top: 9%;
-    padding-right: 12%;
   }
 }
 
@@ -675,6 +675,16 @@ main, .section_01, .section_02 {
 }
 
 @media (max-width: 640px) {
+   main, .section_01, .section_02, .card_01, .card_02 {
+    max-width: 640px;
+    width: 100%;
+  }
+  
+  .white, .white_02, .light_violet, .violet, .light_dark, .dark {
+    max-width: 640px;
+    width: 100%;
+  }
+  
   .card_name {
     font-size: 15.6vmin;
     padding-top: 7.8vmin;
