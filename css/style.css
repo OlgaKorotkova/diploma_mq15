@@ -340,10 +340,21 @@ h1 {
     height: 7.5vmin;
     fill: #ffffff;
     flex-shrink: 0;
+    padding-left: 27vmin;
+    padding-top: 2vmin;
   }
 
-  .apple_store p, .google_store p {
+  .apple_store p {
     font-size: 2.5vmin;
+    padding-left: 3vmin;
+    padding-right: 22vmin;
+    padding-top: 1.5vmin;
+  }
+  
+  .google_store p {
+    font-size: 2.5vmin;
+    padding-left: 3vmin;
+    padding-right: 30vmin;
   }
   
   .bold {
@@ -363,7 +374,7 @@ h1 {
     width: 88vmin;
     margin-left: auto;
     margin-right: auto;
-    padding-bottom: 50vmin;
+    padding-bottom: 23vmin;
   }
 }
 
