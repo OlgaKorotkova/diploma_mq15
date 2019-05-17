@@ -716,15 +716,15 @@ main, .section_01, .section_02 {
   }
   
   .light_dark h3 {
-    padding-top: 10vmin;
+    padding-top: 16vmin;
   }
   
   .white_02 h3 {
-    padding-top: 10vmin;
+    padding-top: 2vmin;
   }
   
   .dark h3 {
-    padding-top: 10vmin;
+    padding-top: 19vmin;
   }
   
   .text {
@@ -745,15 +745,18 @@ main, .section_01, .section_02 {
   
   .small, .small_01 {
     font-size: 4.375vmin;
-    border-bottom: 1vmin solid #5e42b0;
     width: 5.625vmin;
     letter-spacing: initial;
     color: #000000;
     margin-right: 3vmin;
   }
   
+  .small {
+    border-bottom: 1vmin solid #5e42b0;
+  }
+  
   .small_01 {
-     border-bottom: 3vmin solid #efefef;
+     border-bottom: 1vmin solid #efefef;
   }
   
   .small_02 {
@@ -779,7 +782,7 @@ main, .section_01, .section_02 {
   
   .card_02 h3, .card_02 h2, .card_02 p {
     padding-left: 6.25vmin;
-    padding-right: 26.56vmin;
+    padding-right: 14vmin;
   }
   
   .basketballer {
