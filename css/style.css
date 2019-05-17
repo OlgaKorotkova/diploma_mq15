@@ -1276,15 +1276,14 @@ main, .section_01, .section_02 {
 
 @media (max-width: 640px) {
   .icon_download {
-    width: 24%;
-    height: 24%;
+    width: 20%;
+    height: 20%;
     margin-left: auto;
     margin-right: auto;
   }
 
   .text_and_icon {
-    width: 50%;
-    padding-top: 31%;
+    padding-top: 27%;
     padding-bottom: 23%;
   }
 
@@ -1300,6 +1299,7 @@ main, .section_01, .section_02 {
   .text_footer p {
     font-size: 4.375vmin;
     line-height: 1em;
+    padding-left: 4%;
   }
 
   .footer .buttons {
