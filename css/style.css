@@ -716,11 +716,11 @@ main, .section_01, .section_02 {
   }
   
   .light_dark h3 {
-    padding-top: 16vmin;
+    padding-top: 18vmin;
   }
   
   .dark h3 {
-    padding-top: 7vmin;
+    padding-top: 12vmin;
   }
   
   .white_02 h3 {
@@ -755,7 +755,7 @@ main, .section_01, .section_02 {
   
   .light_dark p {
     padding-top: 7vmin;
-    padding-bottom: 17vmin;
+    padding-bottom: 12vmin;
   }
   
   .dark p {
@@ -1075,18 +1075,18 @@ main, .section_01, .section_02 {
   }
   
   .text_line_01 h2 {
-    padding-top: 9%;
-    padding-bottom: 7%;
+    padding-top: 3%;
+    padding-bottom: 3%;
   }
   
   .text_line_02 h2 {
-    padding-top: 9%;
-    padding-bottom: 7%;
+    padding-top: 3%;
+    padding-bottom: 3%;
   }
   
   .text_line_03 h2 {
-    padding-top: 9%;
-    padding-bottom: 7%;
+    padding-top: 6%;
+    padding-bottom: 4%;
   }
 
   .section_gallery p {
@@ -1108,46 +1108,46 @@ main, .section_01, .section_02 {
   .line_01:after {
     content: "01";
     background: #5e42b0;
-    width: 13%;
+    width: 21%;
     position: absolute;
-    bottom: 50%;
-    left: 5%;
+    bottom: 33%;
+    left: 8%;
     color: #ffffff;
     text-decoration: underline;
     text-align: center;
     font-size: 4.375vmin;
     font-weight: bold;
-    line-height: 10vmin;
+    line-height: 21vmin;
   }
 
   .line_02:after {
     content: "02";
     background: #5e42b0;
-    width: 13%;
+    width: 21%;
     position: absolute;
-    bottom: 50%;
-    left: 5%;
+    bottom: 32%;
+    left: 8%;
     color: #ffffff;
     text-decoration: underline;
     text-align: center;
     font-size: 4.375vmin;
     font-weight: bold;
-    line-height: 10vmin;
+    line-height: 21vmin;
   }
 
   .line_03:after {
     content: "03";
     background: #5e42b0;
-    width: 13%;
+    width: 21%;
     position: absolute;
-    bottom: 55%;
-    left: 5%;
+    bottom: 38%;
+    left: 8%;
     color: #ffffff;
     text-decoration: underline;
     text-align: center;
     font-size: 4.375vmin;
     font-weight: bold;
-    line-height: 10vmin;
+    line-height: 21vmin;
   }
 
   .image_01, .image_02, .image_03 {
