@@ -727,20 +727,40 @@ main, .section_01, .section_02 {
     padding-top: 19vmin;
   }
   
-  .text {
+  .text, .text_growth {
     line-height: 1.5em;
-    padding-top: 5vmin;
-    padding-bottom: 10vmin;
     margin-top: 0;
     margin-bottom: 0;
   }
   
-  .text_growth {
-    line-height: 1.5em;
+  .white p {
+    padding-top: 5vmin;
+    padding-bottom: 10vmin;
+  }
+  
+  .white_02 p {
+    padding-top: 5vmin;
+    padding-bottom: 10vmin;
+  }
+  
+  .light_violet p {
+    padding-top: 5vmin;
+    padding-bottom: 10vmin;
+  }
+  
+  .violet p {
     padding-top: 5vmin;
     padding-bottom: 17vmin;
-    margin-top: 0;
-    margin-bottom: 0;
+  }
+  
+  .light_dark p {
+    padding-top: 5vmin;
+    padding-bottom: 17vmin;
+  }
+  
+  .dark p {
+    padding-top: 5vmin;
+    padding-bottom: 17vmin;
   }
   
   .small, .small_01 {
